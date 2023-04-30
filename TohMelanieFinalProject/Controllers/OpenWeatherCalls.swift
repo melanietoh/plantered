@@ -10,7 +10,7 @@ import Foundation
 class OpenWeatherCalls {
     static let sharedInstance = OpenWeatherCalls()
     
-    let API_KEY = "3fc8efe98a352d68386a7e9533da687f"
+    let API_KEY = ""
     var LAT = "0.0"
     var LON = "0.0"
     let BASE_URL = "https://api.openweathermap.org/data/2.5/weather?"
